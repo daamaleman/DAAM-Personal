@@ -1,0 +1,73 @@
+header {
+    background: red;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+h2 {
+    background: blue;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul,
+ol {
+    font-size: 1.5rem;
+}
+
+li{
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+li:hover{
+    font-size: 1.8rem;
+    background-color:yellow ;
+    border-radius: 30px;
+}
+
+.importante{
+    padding: 50px;
+    border-bottom-right-radius: 30px;
+    background: skyblue;
+    margin-top: 20px;
+}
+
+.importante:hover{
+    border-radius: 30px;
+}
+
+.secundario{
+    padding: 50px;
+    border-bottom-left-radius:30px ;
+    background: black;
+    margin-top:20px ;
+    color: white;
+}
+
+.secundario:hover{
+    background-color: pink;
+}
+
+.secundario ol li{
+    color: red;
+}
+
+.secundario ol li:hover{
+    font-size: 2rem;
+    background: none;
+}
+
