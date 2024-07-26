@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px red;
+}
+
+h2{
+    text-align: center;
+    color: black;
+
+}
+p{
+    text-align: center;
+    color: blue;
+}
+li{
+    text-align: center;
+    color: black;
+}
+
+iframe{
+    align-items: center;
+    border-radius: 30px;
+}

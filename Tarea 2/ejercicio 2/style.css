@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    padding-top: 20px;
+    color: blue;
+}
+
+div {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+}
+
+input {
+    text-align: center ;
+    background-color: beige;
+}
+
+input:focus{
+    box-shadow: 0 0 15px rgb(236, 188, 13);
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+button:hover {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}

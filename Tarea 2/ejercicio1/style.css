@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    padding-top: 20px;
+    color: blue;
+}
+
+div{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+input{
+    border-radius: 30px;
+    font-size: 20px;
+    border-color: red;
+    text-align: end;
+    box-shadow: 0 0 5px rgb(224, 188, 13);
+}
+
+input:hover{
+    box-shadow: 0 0 15px rgb(224, 188, 13);
+}
+
+button{
+    background-color: aqua;
+    padding: 15px;
+    font-size: small;
+    border-radius: 20px;
+}
+
+button:hover{
+    padding: 25px;
+    font-size: xx-large;
+}
