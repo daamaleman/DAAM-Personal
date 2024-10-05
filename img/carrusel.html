@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <style>
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            width: 300%;
+            animation: slide 9s infinite;
+        }
+        .carousel-item {
+            width: 100%;
+            flex: 1 0 100%;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="Lote 1.1.jpeg" alt="Lote 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Lote 1.2.jpeg" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Lote 1.3.jpeg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item"></div>
+                <img src="Lote 1.4.jpeg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item"></div>
+                <img src="Lote 1.jpeg" alt="Imagen 3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

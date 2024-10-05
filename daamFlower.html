@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeyni</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        background-color: #f0f8ff;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .flower {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        animation: spin 5s linear infinite;
+      }
+
+      .petal {
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        background: linear-gradient(to bottom, #ffeb3b, #fbc02d);
+        border-radius: 50%;
+        transform-origin: bottom center;
+        box-shadow: 0 0 15px rgba(255, 235, 59, 0.8);
+      }
+
+      .petal:nth-child(1) {
+        transform: rotate(0deg) translateY(-50%);
+      }
+
+      .petal:nth-child(2) {
+        transform: rotate(30deg) translateY(-50%);
+      }
+
+      .petal:nth-child(3) {
+        transform: rotate(60deg) translateY(-50%);
+      }
+
+      .petal:nth-child(4) {
+        transform: rotate(90deg) translateY(-50%);
+      }
+
+      .petal:nth-child(5) {
+        transform: rotate(120deg) translateY(-50%);
+      }
+
+      .petal:nth-child(6) {
+        transform: rotate(150deg) translateY(-50%);
+      }
+
+      .petal:nth-child(7) {
+        transform: rotate(180deg) translateY(-50%);
+      }
+
+      .petal:nth-child(8) {
+        transform: rotate(210deg) translateY(-50%);
+      }
+
+      .petal:nth-child(9) {
+        transform: rotate(240deg) translateY(-50%);
+      }
+
+      .petal:nth-child(10) {
+        transform: rotate(270deg) translateY(-50%);
+      }
+
+      .petal:nth-child(11) {
+        transform: rotate(300deg) translateY(-50%);
+      }
+
+      .petal:nth-child(12) {
+        transform: rotate(330deg) translateY(-50%);
+      }
+
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        background-color: #6d4c41;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 15px rgba(109, 76, 65, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: red;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .text {
+        margin-top: 20px;
+        font-size: 24px;
+        color: #da0f0f;
+        animation: heartbeat 1.5s infinite;
+      }
+
+      @keyframes heartbeat {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.2);
+        }
+      }
+
+      .heart {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flower">
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+    </div>
+    <div class="text">
+      <span class="heart">&hearts;</span>
+      <span class="heart">&hearts;</span> Para Ti, Mi niña hermosa Jeyni
+      <span class="heart"></span> <span class="heart">&hearts;</span>
+      <span class="heart">&hearts;</span>
+    </div>
+  </body>
+</html>
